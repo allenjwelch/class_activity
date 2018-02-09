@@ -19,22 +19,28 @@ header {
 h2 {
 	font-size: 24px;
 	width: 1024px;
-	margin: 0 auto;
+	margin: 10px 30px;
 }
 
 p {
 	margin: 0 auto;
 }
 
+.container {
+	margin: 0;
+}
+
 #main-bio {
 	float: left;
-	padding: 20px;
-	width: 70%;
+	padding: 10px;
+	width: 50%;
+	margin-top: 0;
 }
 
 #contact-info {
 	float: left;
-
+	width: 30%;
+	line-height: 1.5; 
 }
 
 #bio-image {
@@ -43,17 +49,21 @@ p {
 
 }
 
+a {
+	color: #d21034;
+}
+
+	img {
+		border-radius: 20px; 
+		width: 200px;
+		margin: 10px;
+
+	}
 
 
 
-		img {
-			border-radius: 20px; 
-
-
-		}
-
-		img:hover {
-			height: 250px;
-			width: 250px;
-			transition: 2s;
-		}
+	/*img:hover {
+		height: 250px;
+		width: 250px;
+		transition: 2s;
+	}*/
